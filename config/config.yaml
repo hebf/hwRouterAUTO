@@ -1,8 +1,19 @@
 run_config:
     driver_type: chrome
-    url: http://192.168.16.1
+    url: http://192.168.3.1
     rerun: 1
     max_fail: 5
+
+web_login:
+    password: 12345678
+
+
+my_wifi:
+    ssid2g: hilink-test-master
+    ssid5g: hilink-test-master-5G
+    passwd2g: 012345678901234567890123456789012345678901234567890123456789012
+    passwd5g: 012345678901234567890123456789012345678901234567890123456789012
+
 
 telnet_login:
     username: xxx
@@ -13,13 +24,9 @@ telnet_login:
 ssh2_login:
     username: xxx
     password: xxx
-    host: 192.168.1.253
+    host: xxx
     port: xxx
 
-
-web_login:
-    username: admin
-    password: admin
 
 app_desired_caps:
     platformName : Android
@@ -44,9 +51,7 @@ app_desired_caps:
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 assertion:
-    browser_title: 艾泰科技
-    product_model: 进取 518G
-    sw_version: nv518GV3v3.2.2-191220
+    browser_title: 华为路由WS5200 增强版
 
 
 
