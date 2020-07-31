@@ -1,0 +1,53 @@
+run_config:
+    driver_type: chrome
+    url: http://192.168.16.1
+    rerun: 1
+    max_fail: 5
+
+telnet_login:
+    username: xxx
+    password: xxx
+    host: xxx
+    port: xxx
+
+ssh2_login:
+    username: xxx
+    password: xxx
+    host: 192.168.1.253
+    port: xxx
+
+
+web_login:
+    username: admin
+    password: admin
+
+app_desired_caps:
+    platformName : Android
+    platformVersion : 7.1.1
+    deviceName : emulator-5554
+    appPackage : com.utt.smart
+    appActivity : xxx
+
+#mysql_config:
+#    host: 127.0.0.1
+#    port: 3306
+#    user: root
+#    password: password
+#    db_name: pythontest
+
+#log:
+#    file_name: test.log
+#    backup: 5
+#    console_level: WARNING
+#    file_level: DEBUG
+#    pattern: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+assertion:
+    browser_title: 艾泰科技
+    product_model: 进取 518G
+    sw_version: nv518GV3v3.2.2-191220
+
+
+
+
